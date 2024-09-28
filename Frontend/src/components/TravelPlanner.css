@@ -1,0 +1,51 @@
+.traveller-container {
+  /* margin: 4rem 6rem; */
+  color: #2a2a2a;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.traveller-container h1 {
+  font-size: 3rem;
+  margin: 0%;
+  /* margin-top: 10rem; */
+
+}
+
+.buttons-div{
+  /* margin-top: 10rem; */
+  display: flex;
+  justify-content: space-around;
+  /* margin: auto; */
+}
+
+.traveller-container p {
+/* width: 20rem; */
+text-align: justify;
+} 
+
+.button{
+  /* margin: 0 1rem;
+  padding: 1rem 2rem; */
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #2a2a2a;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.form-type-button.active{
+  border-bottom: 5px solid black;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.form-type-button:hover {
+  color: white !important
+}
+

@@ -1,0 +1,149 @@
+.hotel-container {
+  /* margin: 4rem 6rem; */
+  color: #2a2a2a;
+  display: flex;
+  /* margin-top: 10rem;
+  margin-bottom: 8rem; */
+}
+
+.hotel-container h1 {
+  font-size: 3rem;
+  /* margin-top: 10rem; */
+}
+
+.hotel-container label{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+
+.hotel-container select{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-right: 1rem;
+
+}
+
+.hotel-container option{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-right: 1rem;
+
+}
+.item {
+  margin: 2%;
+}
+
+.budget {
+  margin-top: -10rem;
+  height: 15rem;
+}
+.budget h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.hotel_city {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  height: 2rem;
+}
+
+.item:hover {
+  transform: scale(1.1);
+  /* margin: 25%; */
+}
+
+.hotel_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.hotel_img{
+  width: 20rem;
+  height: 12rem;
+}
+
+.hotel-container p {
+  width: 20rem;
+  text-align: justify;
+}
+
+.hotel-container a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+.hotel-container a:hover {
+  color: #2a2a2a;
+}
+
+.sidebar {
+  width: 20%;
+  height: 30rem;
+  border-radius: 2rem;
+  background: #2a2a2a;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 0;
+  left: 2rem;
+  top: 7rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hotel-container .sidebar h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.hotel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 8rem;
+  list-style: none;
+
+}
+
+.hotel-container ul {
+  /* width: 50rem; */
+  /* margin-right: -20rem; */
+}
+
+@media (max-width: 1028px) {
+  .sidebar {
+    display: none;
+  }
+  .hotel-container ul{
+    width: 60%;
+  }
+}
+
+.package_lister {
+  margin-top: -20rem;
+}
+
+.bud {
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.bud:hover{
+  background-color: aliceblue;
+}
+
+

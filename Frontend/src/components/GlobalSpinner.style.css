@@ -1,0 +1,51 @@
+/* Add this to your CSS file */
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 40;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  
+  .spinner-overlay.hidden {
+    display: none;
+  }
+  
+  .spinner-container {
+    width: 16rem; /* 64px */
+    height: 12rem; /* 48px */
+    background-color: white;
+    border-radius: 0.5rem; /* 8px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .spinner-icon {
+    height: 3rem; /* 12px */
+    width: 3rem; /* 12px */
+    color: #4f46e5; /* Indigo-700 */
+    animation: spin 1s linear infinite;
+  }
+  
+  .spinner-circle {
+    opacity: 0.25;
+  }
+  
+  .spinner-path {
+    opacity: 0.75;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

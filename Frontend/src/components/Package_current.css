@@ -1,0 +1,15 @@
+.travel-container {
+    margin: 2rem;
+    color: #2a2a2a;
+    /* padding: 0 2rem 0 2rem; */
+  }
+
+.travel-container h1 {
+    font-size: 3rem;
+    margin-top: 10rem;
+  }
+
+.travel-container p {
+    margin: 2rem 4rem;
+}
+

@@ -1,0 +1,52 @@
+.form {
+   width: 35rem;
+   padding: 15px;
+   margin: auto;
+   margin-top: 10rem;
+   background-color: #2f2f2f;
+   border-radius: 2rem;
+   margin-bottom: 5rem;
+   padding-top: 2rem;
+}
+.form input {
+   margin-bottom: 10px;
+   border-radius: 2rem;
+   padding: 0.5rem;
+   width: 250px;
+   margin-left: 1rem;
+}
+
+.form label {
+   color: white;
+   font-size: 1rem;
+   margin-top: 2rem;
+   margin-left: 1rem;
+   margin-right: 20px;
+}
+
+.form_empty{
+   border: '3px solid red';
+}
+
+.log-btn {
+   margin-top: 2rem;
+   width: 8rem;
+   height: 3rem;
+   background-color: #242424;
+   color: #ffffff;
+   border: none;
+   border-radius: 1rem;
+   font-size: 1rem;
+   margin-left: -2rem;
+}
+
+.log-btn:hover {
+   background-color: #242424;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+
+.footer {
+ background-color: #2f2f2f;
+}

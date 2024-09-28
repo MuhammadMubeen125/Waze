@@ -1,0 +1,51 @@
+.budget-container {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.set-budget {
+    background-color: Black;
+    width: 20rem;
+    align-items: center;
+    height: 25rem;
+    margin: auto;
+    border-radius: 2rem;
+}
+
+.set-budget h1 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.set-budget button {
+    margin-top: 2rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: #ffffff;
+    color: #2a2a2a;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.set-budget button:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.set-budget input {
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.set-budget label {
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
